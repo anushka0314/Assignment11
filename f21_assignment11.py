@@ -29,16 +29,7 @@
 	#
 	# f) Commit your changes and push to GitHub!
 	#
-	# # Problem 1 code here (can split into multiple code chunks if you want)
-import pandas as pd
-import seaborn as sns
-school_data = pd.read_csv('MA_Public_Schools_2017.csv')
-#print(school_data)
-school_data.columns = school_data.columns.str.replace(' ', '_') 
-school_data.columns = school_data.columns.str.replace('%', 'Perc') 
-
-	# # starter code for 1c -- replace school_data w/ your dataframe name
-	#
+	
 #
 	#
 	# Problem 2
