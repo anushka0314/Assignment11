@@ -70,6 +70,9 @@ df.drop('Zip', inplace=True, axis=1)
 sns.pairplot(school_data[['Average_Class_Size', 'Average_Salary', 'Perc_Economically_Disadvantaged', 'Perc_English_Language_Learner']])
 
 	# b) Describe what you see from the plots.
+	#The relationships between the variables aren't too clear but there exists a positive-leaning relationship between Perc_Economically_Disadvantaged and Perc_English_language_learner
+#There is also a faint positive relationship between class size and english language learner
+#most of these variables are skewed so we are working with non-normal data here
 	
 
 	#c) Based on your observations from 3b, and as a completely post-hoc, 
